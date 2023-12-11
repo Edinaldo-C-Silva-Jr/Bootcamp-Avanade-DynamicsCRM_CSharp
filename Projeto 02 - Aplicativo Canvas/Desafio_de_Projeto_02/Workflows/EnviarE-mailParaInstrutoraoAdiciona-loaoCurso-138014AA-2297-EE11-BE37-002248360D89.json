@@ -1,0 +1,97 @@
+{
+  "properties": {
+    "connectionReferences": {
+      "shared_outlook": {
+        "runtimeSource": "invoker",
+        "connection": {
+          "connectionReferenceLogicalName": "ecs_sharedoutlook_28012"
+        },
+        "api": {
+          "name": "shared_outlook"
+        }
+      }
+    },
+    "definition": {
+      "$schema": "https://schema.management.azure.com/providers/Microsoft.Logic/schemas/2016-06-01/workflowdefinition.json#",
+      "contentVersion": "1.0.0.0",
+      "parameters": {
+        "$connections": {
+          "defaultValue": {},
+          "type": "Object"
+        },
+        "$authentication": {
+          "defaultValue": {},
+          "type": "SecureObject"
+        }
+      },
+      "triggers": {
+        "manual": {
+          "metadata": {
+            "operationMetadataId": "39452067-f6ed-4f5c-a0da-943c8487fca7"
+          },
+          "type": "Request",
+          "kind": "PowerAppV2",
+          "inputs": {
+            "schema": {
+              "type": "object",
+              "properties": {
+                "email": {
+                  "title": "Email Instrutor",
+                  "type": "string",
+                  "format": "email",
+                  "x-ms-dynamically-added": true,
+                  "description": "Digite o endereço de email do Instrutor",
+                  "x-ms-content-hint": "EMAIL"
+                },
+                "text": {
+                  "title": "Nome Curso",
+                  "type": "string",
+                  "x-ms-dynamically-added": true,
+                  "description": "Digite o nome do curso",
+                  "x-ms-content-hint": "TEXT"
+                },
+                "text_1": {
+                  "title": "Nome Instrutor",
+                  "type": "string",
+                  "x-ms-dynamically-added": true,
+                  "description": "Digite o nome do Instrutor",
+                  "x-ms-content-hint": "TEXT"
+                }
+              },
+              "required": [
+                "email",
+                "text",
+                "text_1"
+              ]
+            }
+          }
+        }
+      },
+      "actions": {
+        "Enviar_um_email_(V2)": {
+          "runAfter": {},
+          "metadata": {
+            "operationMetadataId": "e0f2c671-9c22-4a90-8d52-f4786b5d8696"
+          },
+          "type": "OpenApiConnection",
+          "inputs": {
+            "host": {
+              "connectionName": "shared_outlook",
+              "operationId": "SendEmailV2",
+              "apiId": "/providers/Microsoft.PowerApps/apis/shared_outlook"
+            },
+            "parameters": {
+              "emailMessage/To": "@triggerBody()['email']",
+              "emailMessage/Subject": "Você agora é instrutor do curso @{triggerBody()['text']}",
+              "emailMessage/Body": "<p>Olá, @{triggerBody()['text_1']}!<br>\nVocê foi escolhido como um dos instrutores do curso @{triggerBody()['text']}!</p>",
+              "emailMessage/Importance": "Normal"
+            },
+            "authentication": "@parameters('$authentication')"
+          }
+        }
+      }
+    },
+    "templateName": null
+  },
+  "schemaVersion": "1.0.0.0"
+}
