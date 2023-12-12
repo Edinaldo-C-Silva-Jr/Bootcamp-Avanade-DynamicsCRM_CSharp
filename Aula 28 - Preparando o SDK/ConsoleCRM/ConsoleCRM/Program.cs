@@ -12,7 +12,7 @@ namespace ConsoleCRM
             DataverseInteraction dataverse = new DataverseInteraction();
             dataverse.ReturnRows(connectionService);
             dataverse.CreateRow(connectionService);
-
+            dataverse.UpdateRow(connectionService);
         }
     }
 }
