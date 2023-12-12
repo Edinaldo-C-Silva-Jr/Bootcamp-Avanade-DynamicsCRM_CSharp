@@ -69,12 +69,42 @@ namespace ConsoleCRM
 
             EntityCollection newAccountCollection = client.RetrieveMultiple(new FetchExpression(fetchXML));
 
-            Entity newEntity = new Entity("account", newAccountCollection[0].Id) ;
-            newEntity["name"] = $"Conta Alterada - {DateTime.Now}";
+            Entity updateEntity = new Entity("account", newAccountCollection[0].Id) ;
+            updateEntity["name"] = $"Conta Alterada - {DateTime.Now}";
 
-            client.Update(newEntity);
+            client.Update(updateEntity);
             Console.WriteLine($"Update Realizado na conta de Id: {newAccountCollection[0].Id}");
             Console.ReadLine();
+        }
+
+        public void DeleteRow(CrmServiceClient client)
+        {
+            string fetchXML = @"<fetch version='1.0' mapping='logical' savedqueryid='00000000-0000-0000-00aa-000010001001' no-lock='false' distinct='true'>
+                                    <entity name='account'>
+                                        <attribute name='name'/>
+                                        <attribute name='accountid'/>
+                                            <order attribute='name' descending='false'/>
+                                            <filter type='and'>
+                                                <condition attribute='name' operator='like' value='%Conta Alterada%'/>
+                                            </filter>
+                                    </entity>
+                                </fetch>";
+
+
+            EntityCollection newAccountCollection = client.RetrieveMultiple(new FetchExpression(fetchXML));
+
+            Entity entityDelete = client.Retrieve("account", newAccountCollection[0].Id, new ColumnSet(true));
+
+            if (entityDelete.Attributes.Count > 0)
+            {
+                client.Delete("account", newAccountCollection[0].Id);
+                Console.WriteLine("Conta deletada com sucesso!");
+                Console.ReadLine();
+            }
+            else
+            {
+                Console.WriteLine("Não existe conta com o Id fornecido");
+            }
         }
     }
 }

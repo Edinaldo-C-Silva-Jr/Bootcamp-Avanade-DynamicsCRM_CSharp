@@ -13,6 +13,7 @@ namespace ConsoleCRM
             dataverse.ReturnRows(connectionService);
             dataverse.CreateRow(connectionService);
             dataverse.UpdateRow(connectionService);
+            dataverse.DeleteRow(connectionService);
         }
     }
 }
