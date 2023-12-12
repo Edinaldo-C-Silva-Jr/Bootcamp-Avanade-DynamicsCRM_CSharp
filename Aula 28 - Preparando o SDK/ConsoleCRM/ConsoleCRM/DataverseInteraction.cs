@@ -28,5 +28,25 @@ namespace ConsoleCRM
             }
             Console.ReadLine();
         }
+
+        public void CreateRow(CrmServiceClient client)
+        {
+            Guid newRecordGuid = new Guid();
+            Entity newEntity = new Entity("account");
+            newEntity.Attributes.Add("name", $"Nova Conta - {DateTime.Now.ToString()}");
+            newEntity.Attributes.Add("telephone1", "11233334444");
+
+            newRecordGuid = client.Create(newEntity);
+
+            if (newRecordGuid == Guid.Empty)
+            {
+                Console.WriteLine("Criação de registro falhou!");
+            }
+            else
+            {
+                Console.WriteLine($"Registro criado com sucesso! Id = {newRecordGuid}");
+            }
+            Console.ReadLine();
+        }
     }
 }

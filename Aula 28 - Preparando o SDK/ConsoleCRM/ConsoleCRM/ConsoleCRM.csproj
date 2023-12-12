@@ -117,7 +117,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ConnectionWithCRM.cs" />
-    <Compile Include="FetchRows.cs" />
+    <Compile Include="DataverseInteraction.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

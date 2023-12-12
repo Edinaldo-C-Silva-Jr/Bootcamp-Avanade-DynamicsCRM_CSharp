@@ -9,8 +9,10 @@ namespace ConsoleCRM
             ConnectionWithCRM connection = new ConnectionWithCRM();
             CrmServiceClient connectionService = connection.GetConnection();
             
-            DataverseInteraction rows = new DataverseInteraction();
-            rows.ReturnRows(connectionService);
+            DataverseInteraction dataverse = new DataverseInteraction();
+            dataverse.ReturnRows(connectionService);
+            dataverse.CreateRow(connectionService);
+
         }
     }
 }
