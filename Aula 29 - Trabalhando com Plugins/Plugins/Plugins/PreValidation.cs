@@ -26,6 +26,11 @@ namespace Plugins
                 {
                     throw new InvalidPluginExecutionException("Campo de Telefone Principal é obrigatório!");
                 }
+                else if (String.IsNullOrEmpty(contextEntity["telephone1"].ToString()))
+                {
+                    throw new InvalidPluginExecutionException("Campo de Telefone Principal não pode estar vazio!");
+                }
+
             }
         }
     }
