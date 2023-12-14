@@ -14,10 +14,10 @@ function CallCustomAction(executionContext) {
 			request.onreadystatechange = null;
 			
 			if (this.status == 200 || this.status == 204) { // 200 and 204 are success
-				Xrm.Utility.AlertDialog("Custom Action executada com sucesso!");
+				Xrm.Navigation.openAlertDialog("Custom Action executada com sucesso!");
 			} else {
 				var error = JSON.parse(this.response).error;
-				Xrm.Utility.AlertDialog("Erro na action: " + error.message);
+				Xrm.Navigation.openAlertDialog("Erro na action: " + error.message);
 			}
 		}
 	}

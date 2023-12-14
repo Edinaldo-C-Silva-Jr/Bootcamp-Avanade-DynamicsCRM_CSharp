@@ -12,7 +12,17 @@ namespace CustomAction
             IOrganizationService service = serviceFactory.CreateOrganizationService(null);
             ITracingService tracer = (ITracingService)serviceProvider.GetService(typeof(ITracingService));
 
-            tracer.Trace("A Primeira Action foi executada com sucesso!");
+            tracer.Trace("A Primeira Action foi executada com sucesso! Criando Cliente Potencial no Dataverse.");
+
+            Entity entityLead = new Entity("lead");
+            entityLead["subject"] = "Cliente Potencial por Action";
+            entityLead["firstname"] = "Primeiro Nome";
+            entityLead["lastname"] = DateTime.Now.ToString();
+            entityLead["mobilephone"] = "11912341234";
+            entityLead["ownerid"] = new EntityReference("systemuser", context.UserId);
+
+            Guid guidLead = service.Create(entityLead);
+            tracer.Trace($"Lead criado: {guidLead}");
         }
     }
 }
