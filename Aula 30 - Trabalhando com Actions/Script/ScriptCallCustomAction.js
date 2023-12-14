@@ -1,11 +1,11 @@
-function CallCustomAction(executionContext) {
+function CallCustomAction(primaryControl) {
 	var globalContext = Xrm.Utility.getGlobalContext(); // Gets the global context of the page
 	
 	var request = new XMLHttpRequest();
 	request.open("POST", globalContext.getClientUrl() + "/api/data/v9.2/ecs_CallCustomAction", true); // getClientUrl gets the URL of the environment where this script runs
 	
 	request.setRequestHeader("Accept", "application/json"); // Sets the standard parameters for HTTP Requests
-	request.setRequestHeader("Content.Type", "application/json; charset=utf-8");
+	request.setRequestHeader("Content-Type", "application/json; charset=utf-8");
 	request.setRequestHeader("OData-MaxVersion", "4.0");
 	request.setRequestHeader("OData-Version", "4.0");
 	
