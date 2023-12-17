@@ -121,7 +121,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ActionCEPWebAPI.cs" />
-    <Compile Include="FirstCustomAction.cs" />
+    <Compile Include="ActionCreateLead.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
