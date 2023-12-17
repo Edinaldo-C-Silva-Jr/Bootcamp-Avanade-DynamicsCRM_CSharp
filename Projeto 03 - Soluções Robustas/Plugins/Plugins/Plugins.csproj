@@ -120,10 +120,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AsyncPostOperation.cs" />
-    <Compile Include="PostOperation.cs" />
-    <Compile Include="PreOperation.cs" />
-    <Compile Include="PreValidation.cs" />
+    <Compile Include="AccountAsyncPostOperation.cs" />
+    <Compile Include="AccountPostOperation.cs" />
+    <Compile Include="AccountPreOperation.cs" />
+    <Compile Include="AccountPreValidation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
