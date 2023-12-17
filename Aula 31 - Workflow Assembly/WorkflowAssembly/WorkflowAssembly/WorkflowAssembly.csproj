@@ -120,6 +120,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="WFCriarCalendarioAluno.cs" />
     <Compile Include="WFLimiteInscricao.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
