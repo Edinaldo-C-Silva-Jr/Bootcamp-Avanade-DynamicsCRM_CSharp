@@ -1,0 +1,70 @@
+<ImportExportXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Entities>
+    <Entity>
+      <Name LocalizedName="Cliente Potencial" OriginalName="Cliente Potencial">Lead</Name>
+      <EntityInfo>
+        <entity Name="Lead" unmodified="1">
+          <attributes />
+        </entity>
+      </EntityInfo>
+      <RibbonDiffXml>
+        <CustomActions>
+          <CustomAction Id="ecs.lead.Button2.CallActionCriaClientePotencial.CustomAction" Location="Mscrm.HomepageGrid.lead.MainTab.Management.Controls._children" Sequence="23">
+            <CommandUIDefinition>
+              <Button Command="ecs.lead.Command0.CallActionCriarClientePotencial" Id="ecs.lead.Button2.CallActionCriaClientePotencial" LabelText="$LocLabels:ecs.lead.Button2.CallActionCriaClientePotencial.LabelText" Sequence="23" TemplateAlias="o1" ToolTipTitle="$LocLabels:ecs.lead.Button2.CallActionCriaClientePotencial.ToolTipTitle" ToolTipDescription="$LocLabels:ecs.lead.Button2.CallActionCriaClientePotencial.ToolTipDescription" />
+            </CommandUIDefinition>
+          </CustomAction>
+        </CustomActions>
+        <Templates>
+          <RibbonTemplates Id="Mscrm.Templates"></RibbonTemplates>
+        </Templates>
+        <CommandDefinitions>
+          <CommandDefinition Id="ecs.lead.Command0.CallActionCriarClientePotencial">
+            <EnableRules />
+            <DisplayRules />
+            <Actions>
+              <JavaScriptFunction FunctionName="CallActionCriarClientePotencial" Library="$webresource:ecs_CallActionCriarClientePotencial">
+                <CrmParameter Value="PrimaryControl" />
+              </JavaScriptFunction>
+            </Actions>
+          </CommandDefinition>
+        </CommandDefinitions>
+        <RuleDefinitions>
+          <TabDisplayRules />
+          <DisplayRules />
+          <EnableRules />
+        </RuleDefinitions>
+        <LocLabels>
+          <LocLabel Id="ecs.lead.Button2.CallActionCriaClientePotencial.LabelText">
+            <Titles>
+              <Title description="Action Criar Cliente Potencial" languagecode="1046" />
+            </Titles>
+          </LocLabel>
+          <LocLabel Id="ecs.lead.Button2.CallActionCriaClientePotencial.ToolTipDescription">
+            <Titles>
+              <Title description="A Action é executada e é criado um cliente potencial com informações predefinidas." languagecode="1046" />
+            </Titles>
+          </LocLabel>
+          <LocLabel Id="ecs.lead.Button2.CallActionCriaClientePotencial.ToolTipTitle">
+            <Titles>
+              <Title description="Executa Action Criar Cliente Potencial" languagecode="1046" />
+            </Titles>
+          </LocLabel>
+        </LocLabels>
+      </RibbonDiffXml>
+    </Entity>
+  </Entities>
+  <Roles></Roles>
+  <Workflows></Workflows>
+  <FieldSecurityProfiles></FieldSecurityProfiles>
+  <Templates />
+  <EntityMaps />
+  <EntityRelationships />
+  <OrganizationSettings />
+  <optionsets />
+  <CustomControls />
+  <EntityDataProviders />
+  <Languages>
+    <Language>1046</Language>
+  </Languages>
+</ImportExportXml>

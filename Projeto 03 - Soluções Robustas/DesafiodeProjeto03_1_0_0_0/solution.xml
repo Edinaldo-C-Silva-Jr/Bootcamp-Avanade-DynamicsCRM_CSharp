@@ -1,0 +1,1443 @@
+<ImportExportXml version="9.2.23121.166" SolutionPackageVersion="9.2" languagecode="1046" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SolutionManifest>
+    <UniqueName>DesafiodeProjeto03</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="Desafio de Projeto 03" languagecode="1046" />
+    </LocalizedNames>
+    <Descriptions />
+    <Version>1.0.0.0</Version>
+    <Managed>0</Managed>
+    <Publisher>
+      <UniqueName>Edinaldo_Correia_da_Silva_Junior</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="Edinaldo Silva" languagecode="1046" />
+      </LocalizedNames>
+      <Descriptions>
+        <Description description="Eu kk" languagecode="1046" />
+      </Descriptions>
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>ecs</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>12345</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="account" behavior="0" />
+      <RootComponent type="1" schemaName="ecs_alunos" behavior="0" />
+      <RootComponent type="1" schemaName="ecs_calendarioaluno" behavior="0" />
+      <RootComponent type="1" schemaName="ecs_cursos" behavior="0" />
+      <RootComponent type="1" schemaName="ecs_curso_aluno" behavior="0" />
+      <RootComponent type="1" schemaName="lead" behavior="0" />
+      <RootComponent type="9" schemaName="ecs_periododocurso" behavior="0" />
+      <RootComponent type="9" schemaName="ecs_tipodecurso" behavior="0" />
+      <RootComponent type="29" id="{15fb026a-6d9d-ee11-a569-6045bd3b2479}" behavior="0" />
+      <RootComponent type="29" id="{2935dc82-5e9d-ee11-a569-6045bd3b2479}" behavior="0" />
+      <RootComponent type="29" id="{336013c3-2c9d-ee11-a569-6045bd3b2479}" behavior="0" />
+      <RootComponent type="29" id="{48bd3174-5a9d-ee11-a569-6045bd3b2479}" behavior="0" />
+      <RootComponent type="29" id="{85c2e783-259d-ee11-a569-6045bd3b2479}" behavior="0" />
+      <RootComponent type="29" id="{d211574d-669d-ee11-a569-6045bd3b2479}" behavior="0" />
+      <RootComponent type="60" id="{15915835-b87c-49ec-9ffc-bfac3ac44ef1}" />
+      <RootComponent type="60" id="{9a14ebb4-143e-e711-80e1-00155d871bb4}" />
+      <RootComponent type="61" schemaName="ecs_CallActionCriarClientePotencial" behavior="0" />
+      <RootComponent type="61" schemaName="ecs_CallActionPegaEnderecoPeloCEP" behavior="0" />
+      <RootComponent type="62" schemaName="ecs_AlunoseCursos" behavior="0" />
+      <RootComponent type="80" schemaName="ecs_AlunoseCursos" behavior="0" />
+      <RootComponent type="91" id="{49c38c8e-000a-4506-8e81-6ccd0abab8a6}" schemaName="CustomAction, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7ddaaab02b497b4c" behavior="0" />
+      <RootComponent type="91" id="{0abef570-6bfc-4f95-8fee-56227b7020e6}" schemaName="Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=cd5b5b46e704f110" behavior="0" />
+      <RootComponent type="91" id="{4413b08c-9740-4f99-a436-c6c3da590509}" schemaName="WorkflowAssembly, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f1fff8d086283077" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required type="1" schemaName="adx_invitation" displayName="Convite" solution="PowerPages_RuntimeCore (1.0.2308.4)">
+          <package>PowerPages_Core (1.0.2311.74)</package>
+        </Required>
+        <Dependent type="1" schemaName="account" displayName="Conta" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="bookableresource" displayName="Recurso Reservável" solution="msdynce_Scheduling (9.0.0.0)" />
+        <Dependent type="10" schemaName="msdyn_bookableresource_account_PreferredResource" displayName="msdyn_bookableresource_account_PreferredResource" parentSchemaName="bookableresource" parentDisplayName="Recurso Reservável" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="competitor" displayName="Concorrente" solution="msdynce_Sales (9.0.4.0076)">
+          <package>msdynce_SalesAnchor (9.0.23121.10005)</package>
+        </Required>
+        <Dependent type="60" displayName="Cliente Potencial" parentDisplayName="Cliente Potencial" id="{e3b6ddb7-8df0-4410-ac7b-fd32e5053d38}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="lead" displayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="1" schemaName="lead" displayName="Cliente Potencial" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_accountkpiitem" displayName="Item de KPI de Conta" solution="RelationshipAnalytics (9.0.3.90231212)">
+          <package>msdynce_SalesInsightsAnchor (9.0.23121.10006)</package>
+        </Required>
+        <Dependent type="1" schemaName="account" displayName="Conta" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_accountkpiitem" displayName="Item de KPI de Conta" solution="RelationshipAnalytics (9.0.3.90231212)">
+          <package>msdynce_SalesInsightsAnchor (9.0.23121.10006)</package>
+        </Required>
+        <Dependent type="10" schemaName="msdyn_msdyn_accountkpiitem_account_accountkpiid" displayName="msdyn_msdyn_accountkpiitem_account_accountkpiid" parentSchemaName="msdyn_accountkpiitem" parentDisplayName="Item de KPI de Conta" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_accountpricelist" displayName="Lista de Preços do Projeto da Conta" solution="ProjectService (3.10.0.31)" />
+        <Dependent type="1" schemaName="account" displayName="Conta" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_actual" displayName="Dados Reais" solution="MicrosoftDynamicsScheduling (3.12.0.448)" />
+        <Dependent type="1" schemaName="account" displayName="Conta" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_agreement" displayName="Contrato" solution="FieldService (8.8.0.88)" />
+        <Dependent type="1" schemaName="account" displayName="Conta" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aicontactsuggestion" displayName="Sugestão de Contato do Teams por IA" solution="msdyn_Collaboration (9.1.23084.10071)">
+          <package>msdynce_OfficeProductivityAnchor (9.0.23112.10001)</package>
+        </Required>
+        <Dependent type="1" schemaName="account" displayName="Conta" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_conversationparticipantinsights" displayName="Conversation Participant Insights" solution="msdyn_Conversation_Intelligence (9.0.1.1139)">
+          <package>msdyn_SalesConversationIntelligenceAnchor (9.0.1.1139)</package>
+        </Required>
+        <Dependent type="1" schemaName="account" displayName="Conta" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_customerasset" displayName="Ativo do Cliente" solution="msdyn_AssetCommon (1.0.46.7)">
+          <package>msdynce_ServiceAnchor (9.0.23112.1011)</package>
+        </Required>
+        <Dependent type="1" schemaName="account" displayName="Conta" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_dailyaccountkpiitem" displayName="KPIs diários da conta" solution="RelationshipAnalytics (9.0.3.90231212)">
+          <package>msdynce_SalesInsightsAnchor (9.0.23121.10006)</package>
+        </Required>
+        <Dependent type="1" schemaName="account" displayName="Conta" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_dailyleadkpiitem" displayName="KPIs diários do cliente potencial" solution="RelationshipAnalytics (9.0.3.90231212)">
+          <package>msdynce_SalesInsightsAnchor (9.0.23121.10006)</package>
+        </Required>
+        <Dependent type="1" schemaName="lead" displayName="Cliente Potencial" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_duplicatedetectionpluginrun" displayName="Execução do Plug-in de Detecção de Duplicidades" solution="msdyn_leadhygiene (9.1.2312.1001)">
+          <package>msdyn_AcceleratedSalesAnchor (9.1.23121.10004)</package>
+        </Required>
+        <Dependent type="1" schemaName="lead" displayName="Cliente Potencial" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_duplicateleadmapping" displayName="Mapeamento de Cliente Potencial Duplicado" solution="msdyn_leadhygiene (9.1.2312.1001)">
+          <package>msdyn_AcceleratedSalesAnchor (9.1.23121.10004)</package>
+        </Required>
+        <Dependent type="1" schemaName="lead" displayName="Cliente Potencial" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_entitlementapplication" displayName="Aplicação de Direito" solution="FieldService (8.8.0.88)" />
+        <Dependent type="1" schemaName="account" displayName="Conta" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_estimateline" displayName="Linha de Estimativa" solution="ProjectService (3.10.0.31)" />
+        <Dependent type="1" schemaName="account" displayName="Conta" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_fact" displayName="Fato" solution="ProjectService (3.10.0.31)" />
+        <Dependent type="1" schemaName="account" displayName="Conta" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_geofence" displayName="Cerca Geográfica" solution="msdyn_Geofencing (1.1.0.470)" />
+        <Dependent type="1" schemaName="account" displayName="Conta" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_insurance" displayName="Seguro" solution="msdyn_FieldService_patch_update (8.8.104.44)" />
+        <Dependent type="1" schemaName="account" displayName="Conta" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_invoicelinetransaction" displayName="Detalhe da Linha da Fatura" solution="ProjectService (3.10.0.31)" />
+        <Dependent type="1" schemaName="account" displayName="Conta" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_iotdevice" displayName="Dispositivo IoT" solution="IoTConnector (1.8.47.0)">
+          <package>msdynce_ServiceAnchor (9.0.23112.1011)</package>
+        </Required>
+        <Dependent type="1" schemaName="account" displayName="Conta" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_journalline" displayName="Linha do Diário" solution="ProjectService (3.10.0.31)" />
+        <Dependent type="1" schemaName="account" displayName="Conta" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_leadkpiitem" displayName="Item de KPI de Cliente Potencial" solution="RelationshipAnalytics (9.0.3.90231212)">
+          <package>msdynce_SalesInsightsAnchor (9.0.23121.10006)</package>
+        </Required>
+        <Dependent type="1" schemaName="lead" displayName="Cliente Potencial" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_leadkpiitem" displayName="Item de KPI de Cliente Potencial" solution="RelationshipAnalytics (9.0.3.90231212)">
+          <package>msdynce_SalesInsightsAnchor (9.0.23121.10006)</package>
+        </Required>
+        <Dependent type="10" schemaName="msdyn_msdyn_leadkpiitem_lead_leadkpiid" displayName="msdyn_msdyn_leadkpiitem_lead_leadkpiid" parentSchemaName="msdyn_leadkpiitem" parentDisplayName="Item de KPI de Cliente Potencial" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_linkedentityattributevalidity" displayName="Validade do Atributo de Entidade Vinculada" solution="msdyn_leadhygiene (9.1.2312.1001)">
+          <package>msdyn_AcceleratedSalesAnchor (9.1.23121.10004)</package>
+        </Required>
+        <Dependent type="1" schemaName="lead" displayName="Cliente Potencial" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_liveconversation" displayName="Conversa em andamento (Preterido)" solution="OmnichannelBase (1.10.0.55)">
+          <package>UnifiedRoutingPrimeAnchor (1.5.26.59)</package>
+        </Required>
+        <Dependent type="1" schemaName="account" displayName="Conta" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_mostcontacted" displayName="Mais Contatado" solution="RelationshipAnalytics (9.0.3.90231212)">
+          <package>msdynce_SalesInsightsAnchor (9.0.23121.10006)</package>
+        </Required>
+        <Dependent type="1" schemaName="account" displayName="Conta" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_mostcontacted" displayName="Mais Contatado" solution="RelationshipAnalytics (9.0.3.90231212)">
+          <package>msdynce_SalesInsightsAnchor (9.0.23121.10006)</package>
+        </Required>
+        <Dependent type="1" schemaName="lead" displayName="Cliente Potencial" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_mostcontactedby" displayName="Mais Contatado por" solution="RelationshipAnalytics (9.0.3.90231212)">
+          <package>msdynce_SalesInsightsAnchor (9.0.23121.10006)</package>
+        </Required>
+        <Dependent type="1" schemaName="account" displayName="Conta" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_mostcontactedby" displayName="Mais Contatado por" solution="RelationshipAnalytics (9.0.3.90231212)">
+          <package>msdynce_SalesInsightsAnchor (9.0.23121.10006)</package>
+        </Required>
+        <Dependent type="1" schemaName="lead" displayName="Cliente Potencial" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_nottoexceed" displayName="NTE (limite máximo)" solution="msdyn_FieldService_patch_update (8.8.104.44)" />
+        <Dependent type="1" schemaName="account" displayName="Conta" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_ocliveworkitem" displayName="Conversa" solution="OmnichannelBase (1.10.0.55)">
+          <package>UnifiedRoutingPrimeAnchor (1.5.26.59)</package>
+        </Required>
+        <Dependent type="1" schemaName="account" displayName="Conta" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_opportunitylinetransaction" displayName="Detalhe da Linha de Oportunidade (Preterida)" solution="ProjectService (3.10.0.31)" />
+        <Dependent type="1" schemaName="account" displayName="Conta" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_orderlinetransaction" displayName="Detalhe da Linha de Contrato do Projeto" solution="ProjectService (3.10.0.31)" />
+        <Dependent type="1" schemaName="account" displayName="Conta" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_orgchartnode" displayName="Entidade de nó de Gráfico da Organização da Microsoft" solution="msdyn_LinkedInExtensions (9.0.23105.10011)">
+          <package>msdyn_SalesIntegrationsAddOns (9.0.23121.10003)</package>
+        </Required>
+        <Dependent type="1" schemaName="account" displayName="Conta" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_payment" displayName="Pagamento" solution="FieldService (8.8.0.88)" />
+        <Dependent type="1" schemaName="account" displayName="Conta" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_preferredagent" displayName="Agente preferencial" solution="UnifiedRouting (1.0.0.4674)">
+          <package>UnifiedRoutingPrimeAnchor (1.5.26.59)</package>
+        </Required>
+        <Dependent type="1" schemaName="account" displayName="Conta" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_project" displayName="Projeto" solution="ProjectService (3.10.0.31)" />
+        <Dependent type="1" schemaName="account" displayName="Conta" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_purchaseorder" displayName="Ordem de Compra" solution="FieldServiceCommon (1.0.0.217)" />
+        <Dependent type="1" schemaName="account" displayName="Conta" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_quotelinetransaction" displayName="Detalhe da Linha de Cotação" solution="ProjectService (3.10.0.31)" />
+        <Dependent type="1" schemaName="account" displayName="Conta" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_requirementresourcepreference" displayName="Preferência de Recurso de Requisito" solution="MicrosoftDynamicsScheduling (3.12.0.448)" />
+        <Dependent type="1" schemaName="account" displayName="Conta" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_rma" displayName="ADM" solution="FieldService (8.8.0.88)" />
+        <Dependent type="1" schemaName="account" displayName="Conta" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_rmaproduct" displayName="Produto de ADM" solution="FieldService (8.8.0.88)" />
+        <Dependent type="1" schemaName="account" displayName="Conta" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_rtv" displayName="RTV" solution="FieldService (8.8.0.88)" />
+        <Dependent type="1" schemaName="account" displayName="Conta" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_sabackupdiagnostic" displayName="sabackupdiagnostic" solution="msdyn_segment (9.1.2312.1001)">
+          <package>msdyn_AcceleratedSalesAnchor (9.1.23121.10004)</package>
+        </Required>
+        <Dependent type="1" schemaName="account" displayName="Conta" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_sabackupdiagnostic" displayName="sabackupdiagnostic" solution="msdyn_segment (9.1.2312.1001)">
+          <package>msdyn_AcceleratedSalesAnchor (9.1.23121.10004)</package>
+        </Required>
+        <Dependent type="1" schemaName="lead" displayName="Cliente Potencial" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_salesaccelerationinsight" displayName="Insights de aceleração de vendas" solution="msdyn_acceleratedsales (9.1.23121.10004)">
+          <package>msdyn_AcceleratedSalesAnchor (9.1.23121.10004)</package>
+        </Required>
+        <Dependent type="1" schemaName="account" displayName="Conta" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_salesaccelerationinsight" displayName="Insights de aceleração de vendas" solution="msdyn_acceleratedsales (9.1.23121.10004)">
+          <package>msdyn_AcceleratedSalesAnchor (9.1.23121.10004)</package>
+        </Required>
+        <Dependent type="10" schemaName="msdyn_insightsid_salesaccelerationinsights" displayName="msdyn_insightsid_salesaccelerationinsights" parentSchemaName="msdyn_salesaccelerationinsight" parentDisplayName="Insights de aceleração de vendas" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_salescopilotinsight" displayName="Insight do Sales Copilot" solution="msdyn_SalesCopilot (9.1.23121.10007)">
+          <package>msdynce_SalesAnchor (9.0.23121.10005)</package>
+        </Required>
+        <Dependent type="1" schemaName="account" displayName="Conta" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_salescopilotinsight" displayName="Insight do Sales Copilot" solution="msdyn_SalesCopilot (9.1.23121.10007)">
+          <package>msdynce_SalesAnchor (9.0.23121.10005)</package>
+        </Required>
+        <Dependent type="1" schemaName="lead" displayName="Cliente Potencial" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_salesroutingdiagnostic" displayName="salesroutingdiagnostic" solution="msdyn_segment (9.1.2312.1001)">
+          <package>msdyn_AcceleratedSalesAnchor (9.1.23121.10004)</package>
+        </Required>
+        <Dependent type="1" schemaName="account" displayName="Conta" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_salesroutingdiagnostic" displayName="salesroutingdiagnostic" solution="msdyn_segment (9.1.2312.1001)">
+          <package>msdyn_AcceleratedSalesAnchor (9.1.23121.10004)</package>
+        </Required>
+        <Dependent type="1" schemaName="lead" displayName="Cliente Potencial" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_salesroutingrun" displayName="Execução do roteamento do Sales" solution="msdyn_SalesRouting (9.1.2312.1001)">
+          <package>msdyn_AcceleratedSalesAnchor (9.1.23121.10004)</package>
+        </Required>
+        <Dependent type="1" schemaName="lead" displayName="Cliente Potencial" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_salessuggestion" displayName="Insight" solution="msdyn_acceleratedsales (9.1.23121.10004)">
+          <package>msdyn_AcceleratedSalesAnchor (9.1.23121.10004)</package>
+        </Required>
+        <Dependent type="1" schemaName="account" displayName="Conta" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_segment" displayName="Segmento" solution="msdyn_segment (9.1.2312.1001)">
+          <package>msdyn_AcceleratedSalesAnchor (9.1.23121.10004)</package>
+        </Required>
+        <Dependent type="10" schemaName="msdyn_msdyn_segment_account" displayName="msdyn_msdyn_segment_account" parentSchemaName="msdyn_segment" parentDisplayName="Segmento" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_segment" displayName="Segmento" solution="msdyn_segment (9.1.2312.1001)">
+          <package>msdyn_AcceleratedSalesAnchor (9.1.23121.10004)</package>
+        </Required>
+        <Dependent type="10" schemaName="msdyn_msdyn_segment_lead" displayName="msdyn_msdyn_segment_lead" parentSchemaName="msdyn_segment" parentDisplayName="Segmento" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_sequencetarget" displayName="Destino da Sequência" solution="msdyn_Sequence (9.1.2312.1001)">
+          <package>msdyn_AcceleratedSalesAnchor (9.1.23121.10004)</package>
+        </Required>
+        <Dependent type="1" schemaName="account" displayName="Conta" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_sequencetarget" displayName="Destino da Sequência" solution="msdyn_Sequence (9.1.2312.1001)">
+          <package>msdyn_AcceleratedSalesAnchor (9.1.23121.10004)</package>
+        </Required>
+        <Dependent type="1" schemaName="lead" displayName="Cliente Potencial" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_swarm" displayName="Correspondência" solution="msdyn_Swarming (9.0.23121.1020)">
+          <package>msdyn_ServiceExtendedAnchor (9.0.23121.1020)</package>
+        </Required>
+        <Dependent type="1" schemaName="account" displayName="Conta" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_taggedrecord" displayName="Tagged Record" solution="msdyn_VivaSalesCore (9.5.23193.5)">
+          <package>msdynce_SalesAnchor (9.0.23121.10005)</package>
+        </Required>
+        <Dependent type="1" schemaName="lead" displayName="Cliente Potencial" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_taxcode" displayName="Código de Imposto" solution="FieldServiceCommon (1.0.0.217)" />
+        <Dependent type="10" schemaName="msdyn_msdyn_taxcode_account_SalesTaxCode" displayName="msdyn_msdyn_taxcode_account_SalesTaxCode" parentSchemaName="msdyn_taxcode" parentDisplayName="Código de Imposto" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_timespent" displayName="Tempo gasto no BPF" solution="msdyn_PredictiveScoringCommon (9.0.23121.10001)">
+          <package>msdynce_SalesInsightsAnchor (9.0.23121.10006)</package>
+        </Required>
+        <Dependent type="1" schemaName="lead" displayName="Cliente Potencial" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_tradecoverage" displayName="Cobertura de Serviço" solution="msdyn_FieldService_patch_update (8.8.104.44)" />
+        <Dependent type="1" schemaName="account" displayName="Conta" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_warranty" displayName="Garantia" solution="msdyn_AssetCommon (1.0.46.7)">
+          <package>msdynce_ServiceAnchor (9.0.23112.1011)</package>
+        </Required>
+        <Dependent type="1" schemaName="account" displayName="Conta" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_workhourtemplate" displayName="Modelo de trabalho" solution="MicrosoftDynamicsScheduling (3.12.0.448)" />
+        <Dependent type="10" schemaName="msdyn_msdyn_workhourtemplate_account_workhourtemplate" displayName="msdyn_msdyn_workhourtemplate_account_workhourtemplate" parentSchemaName="msdyn_workhourtemplate" parentDisplayName="Modelo de trabalho" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_workorder" displayName="Ordem de Serviço" solution="FieldService (8.8.0.88)" />
+        <Dependent type="1" schemaName="account" displayName="Conta" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_workorderresourcerestriction" displayName="Restrição de Recursos (Preterido)" solution="FieldService (8.8.0.88)" />
+        <Dependent type="1" schemaName="account" displayName="Conta" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="opportunityproduct" displayName="Linha de Oportunidade" solution="msdynce_Sales (9.0.4.0076)">
+          <package>msdynce_SalesAnchor (9.0.23121.10005)</package>
+        </Required>
+        <Dependent type="1" schemaName="account" displayName="Conta" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="product" displayName="Produto" solution="msdynce_ProductManagement (9.0.4.0066)">
+          <package>msdynce_ProductManagementAnchor (9.0.23121.10001)</package>
+        </Required>
+        <Dependent type="1" schemaName="account" displayName="Conta" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="quote" displayName="Cotação" solution="msdynce_Sales (9.0.4.0076)">
+          <package>msdynce_SalesAnchor (9.0.23121.10005)</package>
+        </Required>
+        <Dependent type="1" schemaName="account" displayName="Conta" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="quotedetail" displayName="Linha de Cotação" solution="msdynce_Sales (9.0.4.0076)">
+          <package>msdynce_SalesAnchor (9.0.23121.10005)</package>
+        </Required>
+        <Dependent type="1" schemaName="account" displayName="Conta" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="salesorder" displayName="Ordem" solution="msdynce_Sales (9.0.4.0076)">
+          <package>msdynce_SalesAnchor (9.0.23121.10005)</package>
+        </Required>
+        <Dependent type="1" schemaName="account" displayName="Conta" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="territory" displayName="Região" solution="msdynce_AppCommon (9.0.4.0066)">
+          <package>msdynce_AppCommonAnchor (9.0.23121.10001)</package>
+        </Required>
+        <Dependent type="10" schemaName="msdyn_territory_account_ServiceTerritory" displayName="msdyn_territory_account_ServiceTerritory" parentSchemaName="territory" parentDisplayName="Região" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="msdyn_bookableresource_account_PreferredResource" displayName="msdyn_bookableresource_account_PreferredResource" parentSchemaName="bookableresource" parentDisplayName="Recurso Reservável" solution="FieldService (8.8.0.88)" />
+        <Dependent type="10" schemaName="msdyn_bookableresource_account_PreferredResource" displayName="msdyn_bookableresource_account_PreferredResource" parentSchemaName="bookableresource" parentDisplayName="Recurso Reservável" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="msdyn_msdyn_accountkpiitem_account_accountkpiid" displayName="msdyn_msdyn_accountkpiitem_account_accountkpiid" parentSchemaName="msdyn_accountkpiitem" parentDisplayName="Item de KPI de Conta" solution="RelationshipAnalytics (9.0.3.90231212)">
+          <package>msdynce_SalesInsightsAnchor (9.0.23121.10006)</package>
+        </Required>
+        <Dependent type="10" schemaName="msdyn_msdyn_accountkpiitem_account_accountkpiid" displayName="msdyn_msdyn_accountkpiitem_account_accountkpiid" parentSchemaName="msdyn_accountkpiitem" parentDisplayName="Item de KPI de Conta" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="msdyn_msdyn_leadkpiitem_lead_leadkpiid" displayName="msdyn_msdyn_leadkpiitem_lead_leadkpiid" parentSchemaName="msdyn_leadkpiitem" parentDisplayName="Item de KPI de Cliente Potencial" solution="RelationshipAnalytics (9.0.3.90231212)">
+          <package>msdynce_SalesInsightsAnchor (9.0.23121.10006)</package>
+        </Required>
+        <Dependent type="10" schemaName="msdyn_msdyn_leadkpiitem_lead_leadkpiid" displayName="msdyn_msdyn_leadkpiitem_lead_leadkpiid" parentSchemaName="msdyn_leadkpiitem" parentDisplayName="Item de KPI de Cliente Potencial" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="msdyn_insightsid_salesaccelerationinsights" displayName="msdyn_insightsid_salesaccelerationinsights" parentSchemaName="msdyn_salesaccelerationinsight" parentDisplayName="Insights de aceleração de vendas" solution="msdyn_acceleratedsales (9.1.23121.10004)">
+          <package>msdyn_AcceleratedSalesAnchor (9.1.23121.10004)</package>
+        </Required>
+        <Dependent type="10" schemaName="msdyn_insightsid_salesaccelerationinsights" displayName="msdyn_insightsid_salesaccelerationinsights" parentSchemaName="msdyn_salesaccelerationinsight" parentDisplayName="Insights de aceleração de vendas" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="msdyn_msdyn_segment_lead" displayName="msdyn_msdyn_segment_lead" parentSchemaName="msdyn_segment" parentDisplayName="Segmento" solution="msdyn_segment (9.1.2312.1001)">
+          <package>msdyn_AcceleratedSalesAnchor (9.1.23121.10004)</package>
+        </Required>
+        <Dependent type="10" schemaName="msdyn_msdyn_segment_lead" displayName="msdyn_msdyn_segment_lead" parentSchemaName="msdyn_segment" parentDisplayName="Segmento" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="msdyn_msdyn_taxcode_account_SalesTaxCode" displayName="msdyn_msdyn_taxcode_account_SalesTaxCode" parentSchemaName="msdyn_taxcode" parentDisplayName="Código de Imposto" solution="FieldService (8.8.0.88)" />
+        <Dependent type="10" schemaName="msdyn_msdyn_taxcode_account_SalesTaxCode" displayName="msdyn_msdyn_taxcode_account_SalesTaxCode" parentSchemaName="msdyn_taxcode" parentDisplayName="Código de Imposto" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="msdyn_msdyn_workhourtemplate_account_workhourtemplate" displayName="msdyn_msdyn_workhourtemplate_account_workhourtemplate" parentSchemaName="msdyn_workhourtemplate" parentDisplayName="Modelo de trabalho" solution="FieldService (8.8.0.88)" />
+        <Dependent type="10" schemaName="msdyn_msdyn_workhourtemplate_account_workhourtemplate" displayName="msdyn_msdyn_workhourtemplate_account_workhourtemplate" parentSchemaName="msdyn_workhourtemplate" parentDisplayName="Modelo de trabalho" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="msdyn_territory_account_ServiceTerritory" displayName="msdyn_territory_account_ServiceTerritory" parentSchemaName="territory" parentDisplayName="Região" solution="FieldService (8.8.0.88)" />
+        <Dependent type="10" schemaName="msdyn_territory_account_ServiceTerritory" displayName="msdyn_territory_account_ServiceTerritory" parentSchemaName="territory" parentDisplayName="Região" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="defaultpricelevelid" displayName="Lista de Preços de Produtos" parentSchemaName="account" parentDisplayName="Conta" solution="msdynce_ProductManagement (9.0.4.0066)">
+          <package>msdynce_ProductManagementAnchor (9.0.23121.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Informações" parentDisplayName="Conta" id="{b053a39a-041a-4356-acef-ddf00182762b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msa_managingpartnerid" displayName="Managing Partner" parentSchemaName="account" parentDisplayName="Conta" solution="PowerPages_RuntimeCoreDependencies (1.0.2305.1)">
+          <package>PowerPages_Core (1.0.2311.74)</package>
+        </Required>
+        <Dependent type="10" schemaName="msa_account_managingpartner" displayName="msa_account_managingpartner" parentSchemaName="account" parentDisplayName="Conta" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msdyn_accountkpiid" displayName="KPI" parentSchemaName="account" parentDisplayName="Conta" solution="RelationshipAnalytics (9.0.3.90231212)">
+          <package>msdynce_SalesInsightsAnchor (9.0.23121.10006)</package>
+        </Required>
+        <Dependent type="10" schemaName="msdyn_msdyn_accountkpiitem_account_accountkpiid" displayName="msdyn_msdyn_accountkpiitem_account_accountkpiid" parentSchemaName="msdyn_accountkpiitem" parentDisplayName="Item de KPI de Conta" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msdyn_billingaccount" displayName="Conta de Cobrança" parentSchemaName="account" parentDisplayName="Conta" solution="FieldServiceCommon (1.0.0.217)" />
+        <Dependent type="10" schemaName="msa_account_managingpartner" displayName="msa_account_managingpartner" parentSchemaName="account" parentDisplayName="Conta" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msdyn_preferredresource" displayName="Recurso Preferencial (Preterido)" parentSchemaName="account" parentDisplayName="Conta" solution="FieldService (8.8.0.88)" />
+        <Dependent type="10" schemaName="msdyn_bookableresource_account_PreferredResource" displayName="msdyn_bookableresource_account_PreferredResource" parentSchemaName="bookableresource" parentDisplayName="Recurso Reservável" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msdyn_salesaccelerationinsightid" displayName="ID de Insights de Aceleração de Vendas" parentSchemaName="account" parentDisplayName="Conta" solution="msdyn_acceleratedsales (9.1.23121.10004)">
+          <package>msdyn_AcceleratedSalesAnchor (9.1.23121.10004)</package>
+        </Required>
+        <Dependent type="10" schemaName="msdyn_insightsid_salesaccelerationinsights" displayName="msdyn_insightsid_salesaccelerationinsights" parentSchemaName="msdyn_salesaccelerationinsight" parentDisplayName="Insights de aceleração de vendas" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msdyn_salestaxcode" displayName="Código do Imposto" parentSchemaName="account" parentDisplayName="Conta" solution="FieldService (8.8.0.88)" />
+        <Dependent type="10" schemaName="msdyn_msdyn_taxcode_account_SalesTaxCode" displayName="msdyn_msdyn_taxcode_account_SalesTaxCode" parentSchemaName="msdyn_taxcode" parentDisplayName="Código de Imposto" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msdyn_serviceterritory" displayName="Região de Serviço" parentSchemaName="account" parentDisplayName="Conta" solution="FieldService (8.8.0.88)" />
+        <Dependent type="10" schemaName="msdyn_territory_account_ServiceTerritory" displayName="msdyn_territory_account_ServiceTerritory" parentSchemaName="territory" parentDisplayName="Região" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msdyn_workhourtemplate" displayName="Modelo de Horas de Trabalho" parentSchemaName="account" parentDisplayName="Conta" solution="FieldService (8.8.0.88)" />
+        <Dependent type="10" schemaName="msdyn_msdyn_workhourtemplate_account_workhourtemplate" displayName="msdyn_msdyn_workhourtemplate_account_workhourtemplate" parentSchemaName="msdyn_workhourtemplate" parentDisplayName="Modelo de trabalho" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="originatingleadid" displayName="Cliente Potencial Originador" parentSchemaName="account" parentDisplayName="Conta" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="60" displayName="Informações" parentDisplayName="Conta" id="{b053a39a-041a-4356-acef-ddf00182762b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="territoryid" displayName="Região" parentSchemaName="account" parentDisplayName="Conta" solution="msdynce_Sales (9.0.4.0076)">
+          <package>msdynce_SalesAnchor (9.0.23121.10005)</package>
+        </Required>
+        <Dependent type="60" displayName="Informações" parentDisplayName="Conta" id="{b053a39a-041a-4356-acef-ddf00182762b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="bookableresourceid" displayName="Recurso Reservável" parentSchemaName="bookableresource" parentDisplayName="Recurso Reservável" solution="msdynce_Scheduling (9.0.0.0)" />
+        <Dependent type="10" schemaName="msdyn_bookableresource_account_PreferredResource" displayName="msdyn_bookableresource_account_PreferredResource" parentSchemaName="bookableresource" parentDisplayName="Recurso Reservável" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="name" displayName="Nome" parentSchemaName="bookableresource" parentDisplayName="Recurso Reservável" solution="msdynce_Scheduling (9.0.0.0)" />
+        <Dependent type="10" schemaName="msdyn_bookableresource_account_PreferredResource" displayName="msdyn_bookableresource_account_PreferredResource" parentSchemaName="bookableresource" parentDisplayName="Recurso Reservável" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="address1_city" displayName="Cidade" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="60" displayName="Informações" parentDisplayName="Cliente Potencial" id="{9886ead0-4fcc-4747-9a18-08e7a9a6de71}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="address1_city" displayName="Cidade" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="60" displayName="Cliente Potencial" parentDisplayName="Cliente Potencial" id="{e3b6ddb7-8df0-4410-ac7b-fd32e5053d38}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="address1_composite" displayName="Endereço 1" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="60" displayName="Cliente Potencial" parentDisplayName="Cliente Potencial" id="{e3b6ddb7-8df0-4410-ac7b-fd32e5053d38}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="address1_country" displayName="País/Região" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="60" displayName="Informações" parentDisplayName="Cliente Potencial" id="{9886ead0-4fcc-4747-9a18-08e7a9a6de71}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="address1_country" displayName="País/Região" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="60" displayName="Cliente Potencial" parentDisplayName="Cliente Potencial" id="{e3b6ddb7-8df0-4410-ac7b-fd32e5053d38}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="address1_line1" displayName="Rua 1" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="60" displayName="Informações" parentDisplayName="Cliente Potencial" id="{9886ead0-4fcc-4747-9a18-08e7a9a6de71}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="address1_line1" displayName="Rua 1" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="60" displayName="Cliente Potencial" parentDisplayName="Cliente Potencial" id="{e3b6ddb7-8df0-4410-ac7b-fd32e5053d38}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="address1_line2" displayName="Rua 2" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="60" displayName="Informações" parentDisplayName="Cliente Potencial" id="{9886ead0-4fcc-4747-9a18-08e7a9a6de71}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="address1_line2" displayName="Rua 2" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="60" displayName="Cliente Potencial" parentDisplayName="Cliente Potencial" id="{e3b6ddb7-8df0-4410-ac7b-fd32e5053d38}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="address1_line3" displayName="Rua 3" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="60" displayName="Informações" parentDisplayName="Cliente Potencial" id="{9886ead0-4fcc-4747-9a18-08e7a9a6de71}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="address1_line3" displayName="Rua 3" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="60" displayName="Cliente Potencial" parentDisplayName="Cliente Potencial" id="{e3b6ddb7-8df0-4410-ac7b-fd32e5053d38}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="address1_postalcode" displayName="CEP" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="60" displayName="Informações" parentDisplayName="Cliente Potencial" id="{9886ead0-4fcc-4747-9a18-08e7a9a6de71}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="address1_postalcode" displayName="CEP" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="60" displayName="Cliente Potencial" parentDisplayName="Cliente Potencial" id="{e3b6ddb7-8df0-4410-ac7b-fd32e5053d38}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="address1_stateorprovince" displayName="Estado/Província" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="60" displayName="Informações" parentDisplayName="Cliente Potencial" id="{9886ead0-4fcc-4747-9a18-08e7a9a6de71}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="address1_stateorprovince" displayName="Estado/Província" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="60" displayName="Cliente Potencial" parentDisplayName="Cliente Potencial" id="{e3b6ddb7-8df0-4410-ac7b-fd32e5053d38}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="businesscard" displayName="Cartão de Visita" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_SalesPatch201904 (9.0.1912.1007)">
+          <package>msdynce_SalesAnchor (9.0.23121.10005)</package>
+        </Required>
+        <Dependent type="60" displayName="Cliente Potencial" parentDisplayName="Cliente Potencial" id="{e3b6ddb7-8df0-4410-ac7b-fd32e5053d38}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="businesscardattributes" displayName="BusinessCardAttributes" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_SalesPatch201904 (9.0.1912.1007)">
+          <package>msdynce_SalesAnchor (9.0.23121.10005)</package>
+        </Required>
+        <Dependent type="60" displayName="Cliente Potencial" parentDisplayName="Cliente Potencial" id="{e3b6ddb7-8df0-4410-ac7b-fd32e5053d38}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="campaignid" displayName="Campanha de Origem" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_Marketing (9.0.4.37)">
+          <package>msdynce_MarketingAnchor (9.0.23121.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Informações" parentDisplayName="Cliente Potencial" id="{9886ead0-4fcc-4747-9a18-08e7a9a6de71}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="campaignid" displayName="Campanha de Origem" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_Marketing (9.0.4.37)">
+          <package>msdynce_MarketingAnchor (9.0.23121.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Cliente Potencial" parentDisplayName="Cliente Potencial" id="{e3b6ddb7-8df0-4410-ac7b-fd32e5053d38}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="companyname" displayName="Nome da Empresa" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="60" displayName="Informações" parentDisplayName="Cliente Potencial" id="{9886ead0-4fcc-4747-9a18-08e7a9a6de71}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="companyname" displayName="Nome da Empresa" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="60" displayName="Cliente Potencial" parentDisplayName="Cliente Potencial" id="{e3b6ddb7-8df0-4410-ac7b-fd32e5053d38}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="createdon" displayName="Created On" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="26" schemaName="Clientes Potenciais I Seguir" displayName="Clientes Potenciais I Seguir" parentSchemaName="lead" parentDisplayName="Cliente Potencial" id="{d603107c-5e90-e011-95ae-00155d9cfa02}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="createdon" displayName="Created On" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="26" schemaName="Clientes Potenciais Sendo Seguidos" displayName="Clientes Potenciais Sendo Seguidos" parentSchemaName="lead" parentDisplayName="Cliente Potencial" id="{d603107c-5e90-e011-95ae-00155d9cfa03}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="createdon" displayName="Created On" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="60" displayName="Painel de Clientes Potenciais" parentDisplayName="Cliente Potencial" id="{9a14ebb4-143e-e711-80e1-00155d871bb4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="description" displayName="Descrição" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="60" displayName="Informações" parentDisplayName="Cliente Potencial" id="{9886ead0-4fcc-4747-9a18-08e7a9a6de71}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="description" displayName="Descrição" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="60" displayName="Cliente Potencial" parentDisplayName="Cliente Potencial" id="{e3b6ddb7-8df0-4410-ac7b-fd32e5053d38}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="donotbulkemail" displayName="Não permitir Emails em Massa" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="60" displayName="Informações" parentDisplayName="Cliente Potencial" id="{9886ead0-4fcc-4747-9a18-08e7a9a6de71}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="donotbulkemail" displayName="Não permitir Emails em Massa" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="60" displayName="Cliente Potencial" parentDisplayName="Cliente Potencial" id="{e3b6ddb7-8df0-4410-ac7b-fd32e5053d38}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="donotemail" displayName="Não permitir Emails" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="60" displayName="Informações" parentDisplayName="Cliente Potencial" id="{9886ead0-4fcc-4747-9a18-08e7a9a6de71}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="donotemail" displayName="Não permitir Emails" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="60" displayName="Cliente Potencial" parentDisplayName="Cliente Potencial" id="{e3b6ddb7-8df0-4410-ac7b-fd32e5053d38}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="donotfax" displayName="Não permitir Faxes" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="60" displayName="Informações" parentDisplayName="Cliente Potencial" id="{9886ead0-4fcc-4747-9a18-08e7a9a6de71}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="donotphone" displayName="Não permitir Telefonemas" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="60" displayName="Informações" parentDisplayName="Cliente Potencial" id="{9886ead0-4fcc-4747-9a18-08e7a9a6de71}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="donotphone" displayName="Não permitir Telefonemas" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="60" displayName="Cliente Potencial" parentDisplayName="Cliente Potencial" id="{e3b6ddb7-8df0-4410-ac7b-fd32e5053d38}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="donotpostalmail" displayName="Não permitir Correspondência" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="60" displayName="Informações" parentDisplayName="Cliente Potencial" id="{9886ead0-4fcc-4747-9a18-08e7a9a6de71}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="donotpostalmail" displayName="Não permitir Correspondência" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="60" displayName="Cliente Potencial" parentDisplayName="Cliente Potencial" id="{e3b6ddb7-8df0-4410-ac7b-fd32e5053d38}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="donotsendmm" displayName="Materiais de Marketing" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="60" displayName="Informações" parentDisplayName="Cliente Potencial" id="{9886ead0-4fcc-4747-9a18-08e7a9a6de71}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="donotsendmm" displayName="Materiais de Marketing" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="60" displayName="Cliente Potencial" parentDisplayName="Cliente Potencial" id="{e3b6ddb7-8df0-4410-ac7b-fd32e5053d38}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="emailaddress1" displayName="Email" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="60" displayName="Informações" parentDisplayName="Cliente Potencial" id="{9886ead0-4fcc-4747-9a18-08e7a9a6de71}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="emailaddress1" displayName="Email" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="60" displayName="Cliente Potencial" parentDisplayName="Cliente Potencial" id="{e3b6ddb7-8df0-4410-ac7b-fd32e5053d38}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="fax" displayName="Fax" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="60" displayName="Informações" parentDisplayName="Cliente Potencial" id="{9886ead0-4fcc-4747-9a18-08e7a9a6de71}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="firstname" displayName="Nome" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="60" displayName="Informações" parentDisplayName="Cliente Potencial" id="{9886ead0-4fcc-4747-9a18-08e7a9a6de71}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="followemail" displayName="Acompanhar Atividade de Email" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="60" displayName="Informações" parentDisplayName="Cliente Potencial" id="{9886ead0-4fcc-4747-9a18-08e7a9a6de71}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="fullname" displayName="Nome" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="26" schemaName="Clientes Potenciais I Seguir" displayName="Clientes Potenciais I Seguir" parentSchemaName="lead" parentDisplayName="Cliente Potencial" id="{d603107c-5e90-e011-95ae-00155d9cfa02}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="fullname" displayName="Nome" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="26" schemaName="Clientes Potenciais Sendo Seguidos" displayName="Clientes Potenciais Sendo Seguidos" parentSchemaName="lead" parentDisplayName="Cliente Potencial" id="{d603107c-5e90-e011-95ae-00155d9cfa03}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="fullname" displayName="Nome" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="60" displayName="Cliente Potencial" parentDisplayName="Cliente Potencial" id="{e3b6ddb7-8df0-4410-ac7b-fd32e5053d38}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="industrycode" displayName="Setor" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="60" displayName="Informações" parentDisplayName="Cliente Potencial" id="{9886ead0-4fcc-4747-9a18-08e7a9a6de71}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="industrycode" displayName="Setor" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="60" displayName="Cliente Potencial" parentDisplayName="Cliente Potencial" id="{e3b6ddb7-8df0-4410-ac7b-fd32e5053d38}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="jobtitle" displayName="Cargo" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="60" displayName="Informações" parentDisplayName="Cliente Potencial" id="{9886ead0-4fcc-4747-9a18-08e7a9a6de71}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="jobtitle" displayName="Cargo" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="60" displayName="Cliente Potencial" parentDisplayName="Cliente Potencial" id="{e3b6ddb7-8df0-4410-ac7b-fd32e5053d38}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="lastname" displayName="Sobrenome" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="60" displayName="Informações" parentDisplayName="Cliente Potencial" id="{9886ead0-4fcc-4747-9a18-08e7a9a6de71}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="lastusedincampaign" displayName="Data da Última Campanha" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="60" displayName="Informações" parentDisplayName="Cliente Potencial" id="{9886ead0-4fcc-4747-9a18-08e7a9a6de71}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="lastusedincampaign" displayName="Data da Última Campanha" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="60" displayName="Cliente Potencial" parentDisplayName="Cliente Potencial" id="{e3b6ddb7-8df0-4410-ac7b-fd32e5053d38}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="leadid" displayName="Cliente Potencial" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="26" schemaName="Clientes Potenciais I Seguir" displayName="Clientes Potenciais I Seguir" parentSchemaName="lead" parentDisplayName="Cliente Potencial" id="{d603107c-5e90-e011-95ae-00155d9cfa02}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="leadid" displayName="Cliente Potencial" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="26" schemaName="Clientes Potenciais Sendo Seguidos" displayName="Clientes Potenciais Sendo Seguidos" parentSchemaName="lead" parentDisplayName="Cliente Potencial" id="{d603107c-5e90-e011-95ae-00155d9cfa03}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="leadqualitycode" displayName="Classificação" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="60" displayName="Informações" parentDisplayName="Cliente Potencial" id="{9886ead0-4fcc-4747-9a18-08e7a9a6de71}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="leadqualitycode" displayName="Classificação" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="60" displayName="Cliente Potencial" parentDisplayName="Cliente Potencial" id="{e3b6ddb7-8df0-4410-ac7b-fd32e5053d38}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="leadsourcecode" displayName="Origem do Cliente Potencial" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="60" displayName="Informações" parentDisplayName="Cliente Potencial" id="{9886ead0-4fcc-4747-9a18-08e7a9a6de71}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="leadsourcecode" displayName="Origem do Cliente Potencial" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="60" displayName="Cliente Potencial" parentDisplayName="Cliente Potencial" id="{e3b6ddb7-8df0-4410-ac7b-fd32e5053d38}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mobilephone" displayName="Celular" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="60" displayName="Informações" parentDisplayName="Cliente Potencial" id="{9886ead0-4fcc-4747-9a18-08e7a9a6de71}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mobilephone" displayName="Celular" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="60" displayName="Cliente Potencial" parentDisplayName="Cliente Potencial" id="{e3b6ddb7-8df0-4410-ac7b-fd32e5053d38}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msdyn_leadkpiid" displayName="KPI" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="RelationshipAnalytics (9.0.3.90231212)">
+          <package>msdynce_SalesInsightsAnchor (9.0.23121.10006)</package>
+        </Required>
+        <Dependent type="10" schemaName="msdyn_msdyn_leadkpiitem_lead_leadkpiid" displayName="msdyn_msdyn_leadkpiitem_lead_leadkpiid" parentSchemaName="msdyn_leadkpiitem" parentDisplayName="Item de KPI de Cliente Potencial" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msdyn_ordertype" displayName="Tipo" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="FieldServiceCommon (1.0.0.217)" />
+        <Dependent type="60" displayName="Cliente Potencial" parentDisplayName="Cliente Potencial" id="{e3b6ddb7-8df0-4410-ac7b-fd32e5053d38}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msdyn_segmentid" displayName="ID do Segmento" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdyn_segment (9.1.2312.1001)">
+          <package>msdyn_AcceleratedSalesAnchor (9.1.23121.10004)</package>
+        </Required>
+        <Dependent type="10" schemaName="msdyn_msdyn_segment_lead" displayName="msdyn_msdyn_segment_lead" parentSchemaName="msdyn_segment" parentDisplayName="Segmento" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="numberofemployees" displayName="Número de Funcionários" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="60" displayName="Informações" parentDisplayName="Cliente Potencial" id="{9886ead0-4fcc-4747-9a18-08e7a9a6de71}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="numberofemployees" displayName="Número de Funcionários" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="60" displayName="Cliente Potencial" parentDisplayName="Cliente Potencial" id="{e3b6ddb7-8df0-4410-ac7b-fd32e5053d38}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="26" schemaName="Clientes Potenciais I Seguir" displayName="Clientes Potenciais I Seguir" parentSchemaName="lead" parentDisplayName="Cliente Potencial" id="{d603107c-5e90-e011-95ae-00155d9cfa02}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="26" schemaName="Clientes Potenciais Sendo Seguidos" displayName="Clientes Potenciais Sendo Seguidos" parentSchemaName="lead" parentDisplayName="Cliente Potencial" id="{d603107c-5e90-e011-95ae-00155d9cfa03}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="60" displayName="Informações" parentDisplayName="Cliente Potencial" id="{9886ead0-4fcc-4747-9a18-08e7a9a6de71}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="60" displayName="Cliente Potencial" parentDisplayName="Cliente Potencial" id="{e3b6ddb7-8df0-4410-ac7b-fd32e5053d38}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="pager" displayName="Pager" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="60" displayName="Informações" parentDisplayName="Cliente Potencial" id="{9886ead0-4fcc-4747-9a18-08e7a9a6de71}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="preferredcontactmethodcode" displayName="Método Preferencial de Contato" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="60" displayName="Informações" parentDisplayName="Cliente Potencial" id="{9886ead0-4fcc-4747-9a18-08e7a9a6de71}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="preferredcontactmethodcode" displayName="Método Preferencial de Contato" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="60" displayName="Cliente Potencial" parentDisplayName="Cliente Potencial" id="{e3b6ddb7-8df0-4410-ac7b-fd32e5053d38}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="revenue" displayName="Receita Anual" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="60" displayName="Informações" parentDisplayName="Cliente Potencial" id="{9886ead0-4fcc-4747-9a18-08e7a9a6de71}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="revenue" displayName="Receita Anual" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="60" displayName="Cliente Potencial" parentDisplayName="Cliente Potencial" id="{e3b6ddb7-8df0-4410-ac7b-fd32e5053d38}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="salutation" displayName="Saudação" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="60" displayName="Informações" parentDisplayName="Cliente Potencial" id="{9886ead0-4fcc-4747-9a18-08e7a9a6de71}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="sic" displayName="CNAE" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="60" displayName="Informações" parentDisplayName="Cliente Potencial" id="{9886ead0-4fcc-4747-9a18-08e7a9a6de71}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="sic" displayName="CNAE" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="60" displayName="Cliente Potencial" parentDisplayName="Cliente Potencial" id="{e3b6ddb7-8df0-4410-ac7b-fd32e5053d38}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="26" schemaName="Clientes Potenciais I Seguir" displayName="Clientes Potenciais I Seguir" parentSchemaName="lead" parentDisplayName="Cliente Potencial" id="{d603107c-5e90-e011-95ae-00155d9cfa02}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="26" schemaName="Clientes Potenciais Sendo Seguidos" displayName="Clientes Potenciais Sendo Seguidos" parentSchemaName="lead" parentDisplayName="Cliente Potencial" id="{d603107c-5e90-e011-95ae-00155d9cfa03}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statuscode" displayName="Razão do Status" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="26" schemaName="Clientes Potenciais I Seguir" displayName="Clientes Potenciais I Seguir" parentSchemaName="lead" parentDisplayName="Cliente Potencial" id="{d603107c-5e90-e011-95ae-00155d9cfa02}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statuscode" displayName="Razão do Status" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="26" schemaName="Clientes Potenciais Sendo Seguidos" displayName="Clientes Potenciais Sendo Seguidos" parentSchemaName="lead" parentDisplayName="Cliente Potencial" id="{d603107c-5e90-e011-95ae-00155d9cfa03}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statuscode" displayName="Razão do Status" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="60" displayName="Informações" parentDisplayName="Cliente Potencial" id="{9886ead0-4fcc-4747-9a18-08e7a9a6de71}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statuscode" displayName="Razão do Status" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="60" displayName="Cliente Potencial" parentDisplayName="Cliente Potencial" id="{e3b6ddb7-8df0-4410-ac7b-fd32e5053d38}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="subject" displayName="Tópico" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="26" schemaName="Clientes Potenciais I Seguir" displayName="Clientes Potenciais I Seguir" parentSchemaName="lead" parentDisplayName="Cliente Potencial" id="{d603107c-5e90-e011-95ae-00155d9cfa02}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="subject" displayName="Tópico" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="26" schemaName="Clientes Potenciais Sendo Seguidos" displayName="Clientes Potenciais Sendo Seguidos" parentSchemaName="lead" parentDisplayName="Cliente Potencial" id="{d603107c-5e90-e011-95ae-00155d9cfa03}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="subject" displayName="Tópico" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="60" displayName="Informações" parentDisplayName="Cliente Potencial" id="{9886ead0-4fcc-4747-9a18-08e7a9a6de71}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="subject" displayName="Tópico" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="60" displayName="Cliente Potencial" parentDisplayName="Cliente Potencial" id="{e3b6ddb7-8df0-4410-ac7b-fd32e5053d38}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="telephone1" displayName="Telefone Comercial" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="60" displayName="Informações" parentDisplayName="Cliente Potencial" id="{9886ead0-4fcc-4747-9a18-08e7a9a6de71}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="telephone1" displayName="Telefone Comercial" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="60" displayName="Cliente Potencial" parentDisplayName="Cliente Potencial" id="{e3b6ddb7-8df0-4410-ac7b-fd32e5053d38}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="telephone2" displayName="Telefone Residencial" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="60" displayName="Informações" parentDisplayName="Cliente Potencial" id="{9886ead0-4fcc-4747-9a18-08e7a9a6de71}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="telephone3" displayName="Outro Telefone" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="60" displayName="Informações" parentDisplayName="Cliente Potencial" id="{9886ead0-4fcc-4747-9a18-08e7a9a6de71}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="transactioncurrencyid" displayName="Moeda" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="60" displayName="Informações" parentDisplayName="Cliente Potencial" id="{9886ead0-4fcc-4747-9a18-08e7a9a6de71}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="transactioncurrencyid" displayName="Moeda" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="60" displayName="Cliente Potencial" parentDisplayName="Cliente Potencial" id="{e3b6ddb7-8df0-4410-ac7b-fd32e5053d38}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="websiteurl" displayName="Site" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="60" displayName="Informações" parentDisplayName="Cliente Potencial" id="{9886ead0-4fcc-4747-9a18-08e7a9a6de71}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="websiteurl" displayName="Site" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="60" displayName="Cliente Potencial" parentDisplayName="Cliente Potencial" id="{e3b6ddb7-8df0-4410-ac7b-fd32e5053d38}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msdyn_accountkpiitemid" displayName="Identificador Exclusivo de Instâncias da Entidade" parentSchemaName="msdyn_accountkpiitem" parentDisplayName="Item de KPI de Conta" solution="RelationshipAnalytics (9.0.3.90231212)">
+          <package>msdynce_SalesInsightsAnchor (9.0.23121.10006)</package>
+        </Required>
+        <Dependent type="10" schemaName="msdyn_msdyn_accountkpiitem_account_accountkpiid" displayName="msdyn_msdyn_accountkpiitem_account_accountkpiid" parentSchemaName="msdyn_accountkpiitem" parentDisplayName="Item de KPI de Conta" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msdyn_name" displayName="Nome da Entidade Personalizada" parentSchemaName="msdyn_accountkpiitem" parentDisplayName="Item de KPI de Conta" solution="RelationshipAnalytics (9.0.3.90231212)">
+          <package>msdynce_SalesInsightsAnchor (9.0.23121.10006)</package>
+        </Required>
+        <Dependent type="10" schemaName="msdyn_msdyn_accountkpiitem_account_accountkpiid" displayName="msdyn_msdyn_accountkpiitem_account_accountkpiid" parentSchemaName="msdyn_accountkpiitem" parentDisplayName="Item de KPI de Conta" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msdyn_leadkpiitemid" displayName="Identificador Exclusivo de Instâncias da Entidade" parentSchemaName="msdyn_leadkpiitem" parentDisplayName="Item de KPI de Cliente Potencial" solution="RelationshipAnalytics (9.0.3.90231212)">
+          <package>msdynce_SalesInsightsAnchor (9.0.23121.10006)</package>
+        </Required>
+        <Dependent type="10" schemaName="msdyn_msdyn_leadkpiitem_lead_leadkpiid" displayName="msdyn_msdyn_leadkpiitem_lead_leadkpiid" parentSchemaName="msdyn_leadkpiitem" parentDisplayName="Item de KPI de Cliente Potencial" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msdyn_name" displayName="Nome da Entidade Personalizada" parentSchemaName="msdyn_leadkpiitem" parentDisplayName="Item de KPI de Cliente Potencial" solution="RelationshipAnalytics (9.0.3.90231212)">
+          <package>msdynce_SalesInsightsAnchor (9.0.23121.10006)</package>
+        </Required>
+        <Dependent type="10" schemaName="msdyn_msdyn_leadkpiitem_lead_leadkpiid" displayName="msdyn_msdyn_leadkpiitem_lead_leadkpiid" parentSchemaName="msdyn_leadkpiitem" parentDisplayName="Item de KPI de Cliente Potencial" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msdyn_name" displayName="Nome" parentSchemaName="msdyn_salesaccelerationinsight" parentDisplayName="Insights de aceleração de vendas" solution="msdyn_acceleratedsales (9.1.23121.10004)">
+          <package>msdyn_AcceleratedSalesAnchor (9.1.23121.10004)</package>
+        </Required>
+        <Dependent type="10" schemaName="msdyn_insightsid_salesaccelerationinsights" displayName="msdyn_insightsid_salesaccelerationinsights" parentSchemaName="msdyn_salesaccelerationinsight" parentDisplayName="Insights de aceleração de vendas" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msdyn_salesaccelerationinsightid" displayName="Insights de aceleração de vendas" parentSchemaName="msdyn_salesaccelerationinsight" parentDisplayName="Insights de aceleração de vendas" solution="msdyn_acceleratedsales (9.1.23121.10004)">
+          <package>msdyn_AcceleratedSalesAnchor (9.1.23121.10004)</package>
+        </Required>
+        <Dependent type="10" schemaName="msdyn_insightsid_salesaccelerationinsights" displayName="msdyn_insightsid_salesaccelerationinsights" parentSchemaName="msdyn_salesaccelerationinsight" parentDisplayName="Insights de aceleração de vendas" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msdyn_name" displayName="Nome do segmento" parentSchemaName="msdyn_segment" parentDisplayName="Segmento" solution="msdyn_segment (9.1.2312.1001)">
+          <package>msdyn_AcceleratedSalesAnchor (9.1.23121.10004)</package>
+        </Required>
+        <Dependent type="10" schemaName="msdyn_msdyn_segment_account" displayName="msdyn_msdyn_segment_account" parentSchemaName="msdyn_segment" parentDisplayName="Segmento" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msdyn_name" displayName="Nome do segmento" parentSchemaName="msdyn_segment" parentDisplayName="Segmento" solution="msdyn_segment (9.1.2312.1001)">
+          <package>msdyn_AcceleratedSalesAnchor (9.1.23121.10004)</package>
+        </Required>
+        <Dependent type="10" schemaName="msdyn_msdyn_segment_lead" displayName="msdyn_msdyn_segment_lead" parentSchemaName="msdyn_segment" parentDisplayName="Segmento" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msdyn_segmentid" displayName="segmento" parentSchemaName="msdyn_segment" parentDisplayName="Segmento" solution="msdyn_segment (9.1.2312.1001)">
+          <package>msdyn_AcceleratedSalesAnchor (9.1.23121.10004)</package>
+        </Required>
+        <Dependent type="10" schemaName="msdyn_msdyn_segment_account" displayName="msdyn_msdyn_segment_account" parentSchemaName="msdyn_segment" parentDisplayName="Segmento" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msdyn_segmentid" displayName="segmento" parentSchemaName="msdyn_segment" parentDisplayName="Segmento" solution="msdyn_segment (9.1.2312.1001)">
+          <package>msdyn_AcceleratedSalesAnchor (9.1.23121.10004)</package>
+        </Required>
+        <Dependent type="10" schemaName="msdyn_msdyn_segment_lead" displayName="msdyn_msdyn_segment_lead" parentSchemaName="msdyn_segment" parentDisplayName="Segmento" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msdyn_name" displayName="Nome" parentSchemaName="msdyn_taxcode" parentDisplayName="Código de Imposto" solution="FieldServiceCommon (1.0.0.217)" />
+        <Dependent type="10" schemaName="msdyn_msdyn_taxcode_account_SalesTaxCode" displayName="msdyn_msdyn_taxcode_account_SalesTaxCode" parentSchemaName="msdyn_taxcode" parentDisplayName="Código de Imposto" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msdyn_taxcodeid" displayName="Código do Imposto" parentSchemaName="msdyn_taxcode" parentDisplayName="Código de Imposto" solution="FieldServiceCommon (1.0.0.217)" />
+        <Dependent type="10" schemaName="msdyn_msdyn_taxcode_account_SalesTaxCode" displayName="msdyn_msdyn_taxcode_account_SalesTaxCode" parentSchemaName="msdyn_taxcode" parentDisplayName="Código de Imposto" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msdyn_name" displayName="Nome" parentSchemaName="msdyn_workhourtemplate" parentDisplayName="Modelo de trabalho" solution="MicrosoftDynamicsScheduling (3.12.0.448)" />
+        <Dependent type="10" schemaName="msdyn_msdyn_workhourtemplate_account_workhourtemplate" displayName="msdyn_msdyn_workhourtemplate_account_workhourtemplate" parentSchemaName="msdyn_workhourtemplate" parentDisplayName="Modelo de trabalho" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msdyn_workhourtemplateid" displayName="Modelo de Trabalho" parentSchemaName="msdyn_workhourtemplate" parentDisplayName="Modelo de trabalho" solution="MicrosoftDynamicsScheduling (3.12.0.448)" />
+        <Dependent type="10" schemaName="msdyn_msdyn_workhourtemplate_account_workhourtemplate" displayName="msdyn_msdyn_workhourtemplate_account_workhourtemplate" parentSchemaName="msdyn_workhourtemplate" parentDisplayName="Modelo de trabalho" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="name" displayName="Nome da Região" parentSchemaName="territory" parentDisplayName="Região" solution="msdynce_AppCommon (9.0.4.0066)">
+          <package>msdynce_AppCommonAnchor (9.0.23121.10001)</package>
+        </Required>
+        <Dependent type="10" schemaName="msdyn_territory_account_ServiceTerritory" displayName="msdyn_territory_account_ServiceTerritory" parentSchemaName="territory" parentDisplayName="Região" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="territoryid" displayName="Região" parentSchemaName="territory" parentDisplayName="Região" solution="msdynce_AppCommon (9.0.4.0066)">
+          <package>msdynce_AppCommonAnchor (9.0.23121.10001)</package>
+        </Required>
+        <Dependent type="10" schemaName="msdyn_territory_account_ServiceTerritory" displayName="msdyn_territory_account_ServiceTerritory" parentSchemaName="territory" parentDisplayName="Região" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Meus Clientes Potenciais Abertos" displayName="Meus Clientes Potenciais Abertos" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)" id="{00000000-0000-0000-00aa-000010001005}">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="60" displayName="Painel de Clientes Potenciais" parentDisplayName="Cliente Potencial" id="{9a14ebb4-143e-e711-80e1-00155d871bb4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Clientes Potenciais Abertos" displayName="Clientes Potenciais Abertos" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)" id="{00000000-0000-0000-00aa-000010001006}">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="60" displayName="Painel de Clientes Potenciais" parentDisplayName="Cliente Potencial" id="{9a14ebb4-143e-e711-80e1-00155d871bb4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Clientes Potenciais Fechados" displayName="Clientes Potenciais Fechados" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)" id="{00000000-0000-0000-00aa-000010001009}">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="60" displayName="Painel de Clientes Potenciais" parentDisplayName="Cliente Potencial" id="{9a14ebb4-143e-e711-80e1-00155d871bb4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Exibição de Pesquisa de Campanhas" displayName="Exibição de Pesquisa de Campanhas" parentSchemaName="campaign" parentDisplayName="Campanha" solution="msdynce_Marketing (9.0.4.37)" id="{0e76dc73-2052-484e-8c00-a760f8d522ec}">
+          <package>msdynce_MarketingAnchor (9.0.23121.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Cliente Potencial" parentDisplayName="Cliente Potencial" id="{e3b6ddb7-8df0-4410-ac7b-fd32e5053d38}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Todos os Concorrentes (resumo)" displayName="Todos os Concorrentes (resumo)" parentSchemaName="competitor" parentDisplayName="Concorrente" solution="msdynce_Sales (9.0.4.0076)" id="{57bca9ac-87a0-4c28-adc8-2d0a4645f29e}">
+          <package>msdynce_SalesAnchor (9.0.23121.10005)</package>
+        </Required>
+        <Dependent type="60" displayName="Cliente Potencial" parentDisplayName="Cliente Potencial" id="{e3b6ddb7-8df0-4410-ac7b-fd32e5053d38}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Todos os Clientes Potenciais" displayName="Todos os Clientes Potenciais" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)" id="{5a926b99-3a5f-df11-ae90-00155d2e3002}">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="60" displayName="Painel de Clientes Potenciais" parentDisplayName="Cliente Potencial" id="{9a14ebb4-143e-e711-80e1-00155d871bb4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Todas as Contas" displayName="Todas as Contas" parentSchemaName="account" parentDisplayName="Conta" solution="msdynce_AppCommon (9.0.4.0066)" id="{65ffaf9a-e8c5-432d-860b-32f841b00d87}">
+          <package>msdynce_AppCommonAnchor (9.0.23121.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Painel de Contas" parentDisplayName="Conta" id="{15915835-b87c-49ec-9ffc-bfac3ac44ef1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="59" schemaName="Clientes Potenciais por Proprietário (Gráfico de Marcas)" displayName="Clientes Potenciais por Proprietário (Gráfico de Marcas)" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)" id="{b92a5119-193a-e711-80e3-00155d42a416}">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="60" displayName="Painel de Clientes Potenciais" parentDisplayName="Cliente Potencial" id="{9a14ebb4-143e-e711-80e1-00155d871bb4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="59" schemaName="Clientes Potenciais por Origem (ROSCA)" displayName="Clientes Potenciais por Origem (ROSCA)" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)" id="{d311600c-163a-e711-80e3-00155d42a416}">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="60" displayName="Painel de Clientes Potenciais" parentDisplayName="Cliente Potencial" id="{9a14ebb4-143e-e711-80e1-00155d871bb4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="59" schemaName="Clientes Potenciais por Classificação" displayName="Clientes Potenciais por Classificação" parentSchemaName="lead" parentDisplayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)" id="{f5976c58-5693-de11-97d4-00155da3b01e}">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="60" displayName="Painel de Clientes Potenciais" parentDisplayName="Cliente Potencial" id="{9a14ebb4-143e-e711-80e1-00155d871bb4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Painel de Contas" parentDisplayName="Conta" solution="msdynce_Service (9.0.5.56)" id="{15915835-b87c-49ec-9ffc-bfac3ac44ef1}">
+          <package>msdynce_ServiceAnchor (9.0.23112.1011)</package>
+        </Required>
+        <Dependent type="60" displayName="Painel de Contas" parentDisplayName="Conta" id="{15915835-b87c-49ec-9ffc-bfac3ac44ef1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Informações" parentDisplayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)" id="{9886ead0-4fcc-4747-9a18-08e7a9a6de71}">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="60" displayName="Informações" parentDisplayName="Cliente Potencial" id="{9886ead0-4fcc-4747-9a18-08e7a9a6de71}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Painel de Clientes Potenciais" parentDisplayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)" id="{9a14ebb4-143e-e711-80e1-00155d871bb4}">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="60" displayName="Painel de Clientes Potenciais" parentDisplayName="Cliente Potencial" id="{9a14ebb4-143e-e711-80e1-00155d871bb4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Informações" parentDisplayName="Conta" solution="msdynce_AppCommon (9.0.4.0066)" id="{b053a39a-041a-4356-acef-ddf00182762b}">
+          <package>msdynce_AppCommonAnchor (9.0.23121.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Informações" parentDisplayName="Conta" id="{b053a39a-041a-4356-acef-ddf00182762b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Cliente Potencial" parentDisplayName="Cliente Potencial" solution="msdynce_LeadManagement (9.0.4.0066)" id="{e3b6ddb7-8df0-4410-ac7b-fd32e5053d38}">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="60" displayName="Cliente Potencial" parentDisplayName="Cliente Potencial" id="{e3b6ddb7-8df0-4410-ac7b-fd32e5053d38}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="LeadManagement/Lead/Lead_main_system_library.js" displayName="LeadManagement/Lead/Lead_main_system_library.js" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package>msdynce_LeadManagementAnchor (9.0.23121.10002)</package>
+        </Required>
+        <Dependent type="60" displayName="Cliente Potencial" parentDisplayName="Cliente Potencial" id="{e3b6ddb7-8df0-4410-ac7b-fd32e5053d38}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="MarketingSales/Lead/Lead_main_system_library.js" displayName="MarketingSales/Lead/Lead_main_system_library.js" solution="msdynce_MarketingSales (9.0.4.29)">
+          <package>msdynce_MarketingSalesAnchor (9.0.23121.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Informações" parentDisplayName="Cliente Potencial" id="{9886ead0-4fcc-4747-9a18-08e7a9a6de71}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="msdyn_/ActivityFeeds.Form.js" displayName="msdyn_/ActivityFeeds.Form.js" solution="ActivityFeedsCore (9.0.0.0009)" />
+        <Dependent type="60" displayName="Informações" parentDisplayName="Cliente Potencial" id="{9886ead0-4fcc-4747-9a18-08e7a9a6de71}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="msdyn_/ActivityFeeds.Form.js" displayName="msdyn_/ActivityFeeds.Form.js" solution="ActivityFeedsCore (9.0.0.0009)" />
+        <Dependent type="60" displayName="Informações" parentDisplayName="Conta" id="{b053a39a-041a-4356-acef-ddf00182762b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="msdyn_/Images/AppModule_Default_Icon.png" displayName="msdyn_/Images/AppModule_Default_Icon.png" solution="AppModuleWebResources (2.5)" />
+        <Dependent type="80" schemaName="ecs_AlunoseCursos" displayName="Desafio de Projeto 03" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="msdyn_/Lead/FieldService.Lead.js" displayName="msdyn_/Lead/FieldService.Lead.js" solution="FieldService (8.8.0.88)" />
+        <Dependent type="60" displayName="Cliente Potencial" parentDisplayName="Cliente Potencial" id="{e3b6ddb7-8df0-4410-ac7b-fd32e5053d38}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="msdyn_/RecordWall.htm" displayName="msdyn_/RecordWall.htm" solution="ActivityFeedsCore (9.0.0.0009)" />
+        <Dependent type="60" displayName="Informações" parentDisplayName="Cliente Potencial" id="{9886ead0-4fcc-4747-9a18-08e7a9a6de71}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="msdyn_/RecordWall.htm" displayName="msdyn_/RecordWall.htm" solution="ActivityFeedsCore (9.0.0.0009)" />
+        <Dependent type="60" displayName="Informações" parentDisplayName="Conta" id="{b053a39a-041a-4356-acef-ddf00182762b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="msdyn_/Scripts/WhoKnowsWhomLoader.js" displayName="msdyn_/Scripts/WhoKnowsWhomLoader.js" solution="msdyn_connectiongraph (9.3.0.93231211)">
+          <package>msdynce_SalesInsightsAnchor (9.0.23121.10006)</package>
+        </Required>
+        <Dependent type="60" displayName="Cliente Potencial" parentDisplayName="Cliente Potencial" id="{e3b6ddb7-8df0-4410-ac7b-fd32e5053d38}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="msdyn_SalesOmniChannel/SalesPhoneNumber.Library.js" displayName="msdyn_SalesOmniChannel/SalesPhoneNumber.Library.js" solution="msdyn_SalesOmniChannel (9.1.23121.10004)">
+          <package>msdyn_AcceleratedSalesAnchor (9.1.23121.10004)</package>
+        </Required>
+        <Dependent type="60" displayName="Cliente Potencial" parentDisplayName="Cliente Potencial" id="{e3b6ddb7-8df0-4410-ac7b-fd32e5053d38}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="Intelligence.BusinessCardReaderControl.BusinessCardReader" displayName="Intelligence.BusinessCardReaderControl.BusinessCardReader" solution="BaseCustomControlsCore (9.0.2311.4032)" />
+        <Dependent type="60" displayName="Cliente Potencial" parentDisplayName="Cliente Potencial" id="{e3b6ddb7-8df0-4410-ac7b-fd32e5053d38}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="Microsoft.AddressInputUCI" displayName="Microsoft.AddressInputUCI" solution="BaseCustomControlsCore (9.0.2311.4032)" />
+        <Dependent type="60" displayName="Cliente Potencial" parentDisplayName="Cliente Potencial" id="{e3b6ddb7-8df0-4410-ac7b-fd32e5053d38}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.AcceleratedSales.CadenceWidgetControl" displayName="MscrmControls.AcceleratedSales.CadenceWidgetControl" solution="msdyn_acceleratedsales (9.1.23121.10004)">
+          <package>msdyn_AcceleratedSalesAnchor (9.1.23121.10004)</package>
+        </Required>
+        <Dependent type="60" displayName="Cliente Potencial" parentDisplayName="Cliente Potencial" id="{e3b6ddb7-8df0-4410-ac7b-fd32e5053d38}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.FieldControls.ToggleControl" displayName="MscrmControls.FieldControls.ToggleControl" solution="BaseCustomControlsCore (9.0.2311.4032)" />
+        <Dependent type="60" displayName="Informações" parentDisplayName="Curso x Aluno" id="{f9fbe24e-9500-4001-b3ac-41cffeeb6354}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.Grid.ReadOnlyGrid" displayName="MscrmControls.Grid.ReadOnlyGrid" solution="BaseCustomControlsCore (9.0.2311.4032)" />
+        <Dependent type="60" displayName="Cliente Potencial" parentDisplayName="Cliente Potencial" id="{e3b6ddb7-8df0-4410-ac7b-fd32e5053d38}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.LeadHygiene.ValidatedFieldControl" displayName="MscrmControls.LeadHygiene.ValidatedFieldControl" solution="msdyn_leadhygiene (9.1.2312.1001)">
+          <package>msdyn_AcceleratedSalesAnchor (9.1.23121.10004)</package>
+        </Required>
+        <Dependent type="60" displayName="Cliente Potencial" parentDisplayName="Cliente Potencial" id="{e3b6ddb7-8df0-4410-ac7b-fd32e5053d38}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="msdyn_SalesOmniChannel.SalesPhoneNumberControl" displayName="msdyn_SalesOmniChannel.SalesPhoneNumberControl" solution="msdyn_SalesOmniChannel (9.1.23121.10004)">
+          <package>msdyn_AcceleratedSalesAnchor (9.1.23121.10004)</package>
+        </Required>
+        <Dependent type="60" displayName="Cliente Potencial" parentDisplayName="Cliente Potencial" id="{e3b6ddb7-8df0-4410-ac7b-fd32e5053d38}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MsdynControls.WKWControls.ConnectionsWidget" displayName="MsdynControls.WKWControls.ConnectionsWidget" solution="msdyn_connectiongraph (9.3.0.93231211)">
+          <package>msdynce_SalesInsightsAnchor (9.0.23121.10006)</package>
+        </Required>
+        <Dependent type="60" displayName="Cliente Potencial" parentDisplayName="Cliente Potencial" id="{e3b6ddb7-8df0-4410-ac7b-fd32e5053d38}" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>
