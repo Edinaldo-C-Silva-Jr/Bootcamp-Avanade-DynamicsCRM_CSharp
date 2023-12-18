@@ -15,7 +15,6 @@ O sistema deve conter:
 - Um Fluxo do Power Automate, que deve enviar um e-mail para o instrutor quando ele é adicionado a um curso.
 
 O repositório contem a solução com todos os componentes criados para o desafio.
-Para importar a Solução, basta criar um arquivo .zip da pasta "Desafio_de_Projeto_02"
 
 Esta solução do desafio também conta com algumas melhorias extras:
 - Um script em JavaScript para validação do CPF dos alunos.
